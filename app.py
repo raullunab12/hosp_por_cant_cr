@@ -375,5 +375,8 @@ st.info("Centros de salud (HOTOSM / OpenStreetMap): registra la ubicación geogr
 st.info("Población por cantón (ArcGIS Hub): contiene la población total por cantón, permitiendo estimar densidades y analizar la relación entre habitantes y servicios médicos.")
 st.info("Límites cantonales (IGN / SNIT): delimita los cantones con precisión geoespacial, facilitando el análisis territorial.")
 
+st.info("Repositorio público: https://github.com/raullunab12/hosp_por_cant_cr")
+
+
 time.sleep(2)
 mensaje.empty()
