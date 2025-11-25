@@ -444,5 +444,12 @@ if st.session_state["map_html"] is None or st.session_state["last_var_mapa"] != 
 # Renderizar el HTML del mapa
 components.html(st.session_state["map_html"], width=1000, height=600, scrolling=True)
 
+st.subheader("Lecciones aprendidas")
+
+st.markdown("---")
+
+st.subheader("Sugerencias para trabajo futuro")
+
+
 time.sleep(2)
 mensaje.empty()
